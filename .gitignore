@@ -1,10 +1,14 @@
 # Python-generated files
 __pycache__/
-*.py[oc]
+*.py[cod]
 build/
 dist/
 wheels/
 *.egg-info
+
+
+# Jupyter notebook cache
+.ipynb_checkpoints/
 
 
 # Virtual environments
@@ -15,5 +19,14 @@ wheels/
 .env
 
 
-# vector database container
+# vector database
 Vector/
+
+
+# VS Code settings (optional)
+.vscode/
+
+
+# OS files
+.DS_Store
+Thumbs.db
